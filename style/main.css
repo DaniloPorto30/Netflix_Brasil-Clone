@@ -1,0 +1,138 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', times;
+    font-size: 40px;
+}
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #ffff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-left: 17px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+.item img:hover,.item2 img:hover{
+    padding: 3px;
+}
+.carrosel-filmes{
+    margin-top: 5px;
+}
+.relevancia{
+    font-size: 18px;
+   
+    color:rgb(12, 206, 12);
+}
+.tag1{ 
+    display: flex;
+    padding-top: 10px;
+}
+.infor{
+    margin-left: 20px;
+}
+.ano{
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.botoes1{
+    margin-left: 20px;
+}
+.temp5{
+    font-size:23px ;
+}
+.descricao2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 23px;
+    color: rgb(223, 207, 207);
+}
+.espaco{
+    height:35px;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.filme-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start ;
+}
+
